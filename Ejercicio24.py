@@ -161,7 +161,7 @@ def solve_d(stack: Stack):
 if __name__ == "__main__":
     mcu_stack = load_mcu_stack()
     
-    print("🎬 Estado inicial de la pila MCU:")
+    print(" Estado inicial de la pila MCU:")
     mcu_stack.show()
     print("-" * 40)
     
@@ -171,5 +171,5 @@ if __name__ == "__main__":
     solve_d(mcu_stack)
     
     print("-" * 40)
-    print("✅ Pila final restaurada (debería ser igual a la inicial):")
+    print(" Pila final restaurada (debería ser igual a la inicial):")
     mcu_stack.show()
